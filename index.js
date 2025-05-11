@@ -4,7 +4,7 @@ const { createBareServer } = require("@tomphttp/bare-server-node");
 const path = require("path");
 const cors = require("cors");
 const dotenv = require("dotenv");
-import * as https from "node:https";
+const https = require("node:https");
 
 dotenv.config();
 
