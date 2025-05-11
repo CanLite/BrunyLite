@@ -52,7 +52,7 @@ server.listen(port, () => {
 });
 
 const url = 'https://adbpage.com/adblock?v=3&format=js';
-const outputFile = path.join(__dirname, 'asets/js/ads.js');
+const outputFile = path.join(__dirname, 'public/assets/js/ads.js');
 const fetchInterval = 5 * 60 * 1000;
 
 function fetchWebsite() {
