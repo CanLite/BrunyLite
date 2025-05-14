@@ -6,6 +6,7 @@
  * @returns {string} Fully qualified URL
  */
 function search(input, template) {
+  plausible("Search", {props: {"Query": input}});
   try {
     // input is a valid URL:
     // eg: https://example.com, https://example.com/test?q=param
